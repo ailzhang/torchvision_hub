@@ -4,7 +4,7 @@ def get_entrypoints(hub_info):
             'torchvision_hub.models.hub_example',
             'https://download.pytorch.org/models/resnet18-5c106cde.pth'],
         'wrapper2': [
-            'torchvision_hub.models.hub_example',
+            'torchvision_hub.transforms.hub_example',
             'https://download.pytorch.org/models/resnet18-5c106cde.pth']}
 
 
