@@ -1,5 +1,5 @@
 def get_entrypoints(hub_info):
-    hub_info['entrypoints'] = {'wrapper': ['torchvision.models.hub_example', 'https://downget.pytorch.org/models/resnet18-5c106cde.pth']}
+    hub_info['entrypoints'] = {'wrapper': ['torchvision.models.hub_example', 'https://download.pytorch.org/models/resnet18-5c106cde.pth']}
 
 def get_required_pkg(hub_info):
     hub_info['required'] = ['torch', 'math']
